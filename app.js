@@ -12,7 +12,7 @@ fetch(`https://type.fit/api/quotes`).
             let random = Math.floor(Math.random() * 1500);
 
             if (quotes[random].author === null) {
-                quotes[random].author = '-  Anonymous';
+                quotes[random].author = '- Anonymous';
             }
 
             const quoteDiv = document.getElementById('quote-div');
@@ -22,7 +22,7 @@ fetch(`https://type.fit/api/quotes`).
             div.innerHTML = `
             <div class="quote" id="quote">
                 <p id="text" class="text">"${quotes[random].text}"</p>
-                <p id="author" class="author">${quotes[random].author}</p>
+                <p id="author" class="author">- ${quotes[random].author}</p>
             </div>
             `;
             quoteDiv.appendChild(div);
