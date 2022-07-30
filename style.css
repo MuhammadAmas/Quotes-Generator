@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(148, 187, 233);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(238, 174, 202, 1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(241, 137, 182);
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+#quote-div {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    border: 1px solid #082340;
+    width: 50%;
+    height: 200px;
+
+    margin: auto;
+    margin-top: 3em;
+    padding: 24px;
+
+}
+
+.text {
+    font-size: 1.3rem;
+}
+
+.quote-generator-btn {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    margin: 1em;
+    font-size: 1rem;
+    padding: 12px 24px;
+    border: 1.5px solid #082340;
+}
+
+.quote-generator-btn:hover {
+    background-color: rgb(148, 187, 233);
+}
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 2rem;
+    }
+    .quote {
+        width: 80%;
+    }
+}   
+
+
