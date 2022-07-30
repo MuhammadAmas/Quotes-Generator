@@ -7,7 +7,7 @@ fetch(`https://type.fit/api/quotes`).
         quotes = data;
 
         document.querySelector('.quote-generator-btn').addEventListener('click', generateQuote);
-     
+
         function generateQuote() {
             let random = Math.floor(Math.random() * 1500);
             if (quotes[random].author === null) {

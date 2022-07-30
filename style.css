@@ -1,8 +1,9 @@
 body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    background: rgb(238,174,202);
-background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);}
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -37,7 +38,7 @@ h1 {
     background: rgba(255, 255, 255, 0.15);
     border-radius: 16px;
     border: 1px solid #082340;
-    width: 50%; 
+    width: 50%;
     min-height: 200px;
 
     margin: auto;
@@ -64,12 +65,11 @@ h1 {
 }
 
 @media (max-width: 768px) {
-    h1{
+    h1 {
         font-size: 2rem;
     }
+
     .quote {
         width: 80%;
     }
-}   
-
-
+}
