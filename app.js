@@ -26,8 +26,6 @@ fetch(`https://type.fit/api/quotes`).
             `;
             console.log('**', quoteDiv)
             quoteDiv.appendChild(row);
-            // document.getElementById('text').innerHTML = quotes[random].text;
-            // document.getElementById('author').innerHTML = quotes[random].author;
         }
     }).
     catch(err => {
