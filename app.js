@@ -35,11 +35,3 @@ fetch(`https://type.fit/api/quotes`).
     });
 
 
-
-// random = Math.floor(Math.random() * 1500);
-    // async function run(){
-    //     const response =  await fetch(`https://type.fit/api/quotes`);
-    //     const jsonResponse = await response.json();
-    // }
-    // run()
-
