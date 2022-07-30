@@ -21,7 +21,7 @@ fetch(`https://type.fit/api/quotes`).
             // Insert divs
             div.innerHTML = `
             <div class="quote" id="quote">
-                <p id="text" class="text">${quotes[random].text}</p>
+                <p id="text" class="text">"${quotes[random].text}"</p>
                 <p id="author" class="author">${quotes[random].author}</p>
             </div>
             `;
