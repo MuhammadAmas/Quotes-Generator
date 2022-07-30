@@ -37,8 +37,8 @@ h1 {
     background: rgba(255, 255, 255, 0.15);
     border-radius: 16px;
     border: 1px solid #082340;
-    width: 50%;
-    height: 200px;
+    width: 50%; 
+    min-height: 200px;
 
     margin: auto;
     margin-top: 3em;
